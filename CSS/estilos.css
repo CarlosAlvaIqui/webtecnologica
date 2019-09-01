@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  display: contents;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  height: 70px;
+  background-color: black;
+}
+
+.titulo {
+  color: white;
+  display: inherit;
+  align-items: center;
+  margin: 0;
+  height: inherit;
+}
+
+.menu {
+  display: inherit;
+  height: inherit;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: inherit;
+  height: inherit;
+}
+.menu ul li {
+  height: inherit;
+  margin: 0 10px;
+}
+
+.menu ul li a{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  color: white;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+  margin : 0 auto;
+  width : 1100px;
+  height: inherit;
+}
+
+
+
+.footer {
+  height: 90px;
+  background-color: darkred;
+}
