@@ -8,7 +8,6 @@ body {
   display: flex;
   height: 70px;
   background-color: black;
-  justify-content: sp
 }
 
 .titulo {
@@ -96,4 +95,8 @@ ul {
   background: black;
   color : white;
   height: 35px;
+}
+
+.footer p {
+  margin : 0;
 }
