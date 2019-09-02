@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Página Informativa</title>
   <link rel="stylesheet" href="CSS/estilos.css"> 
+  <link rel="stylesheet" href="CSS/misestilos.css"> 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
   <header class="header">
@@ -29,8 +36,147 @@
 
   <section class="#">
     <div class="container">
+      <div class="row justify-content-center">
+          <!-- Primera carta empieza  aca -->
+          <span class="badge badge-danger" id="titulo">Tips tecnologicos</span>
+        
+              <div class="card-deck">
+                
+                  <div class="card border-0">
+                      <div class="inner">
+                              <img src="imagenes/laima1.jpg" class="card-img-top" id="imas1" alt="ima1" data-toggle="modal" data-target="#exampleModal">
+                      </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     
+          <!--Inicia modal-->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Ver mas
+                      </button>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                             
+                                <div class="card">
+                                    <img src="imagenes/laima1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                  </div>
 
-    </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                    </div>
+                  </div>
+
+                  <!-- Primera carta empieza  aca -->
+                  <div class="card border-0">
+                          <div class="inner">
+                                  <img src="imagenes/laima4.jpeg" class="card-img-top" id="imas1" alt="ima1"  data-toggle="modal" data-target="#exampleModal1">
+                          </div>                        
+                          <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                          Ver mas
+                        </button>
+                        <!--Inicia modal-->
+                      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="card">
+                                      <img src="imagenes/laima4.jpeg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                    </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+
+                   <!-- Primera carta empieza  aca -->
+
+                  <div class="card border-0">
+                          <div class="inner">
+                                  <img src="imagenes/laima2.jpg" class="card-img-top" id="imas1" alt="ima1" data-toggle="modal" data-target="#exampleModal2">
+                          </div>                          <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.  the first to show that equal height .</p>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                          Ver mas
+                        </button>
+                      <!--Inicia modal-->
+                      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+
+                                  <div class="card">
+                                      <img src="imagenes/laima2.jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                    </div>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                     
+                        <div class="card-footer">
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                            </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+
+      </div>
+  </div>
   </section>
 
   <section id="contactos" class="contact">
